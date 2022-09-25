@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="container main">
+    <div class="heading">
+      <h1 class="title1" id="title3">Find Meals For Your Ingredients</h1>
+      <i>One cannot think well, love well, sleep well, if one has not dined well.</i>
+      <i class="author">- Virgina Woolfe</i>
+    </div>
+
+
+    <form class="" action="index.html" method="post">
+      <input autocomplete="off" placeholder="Enter an ingredient (eg: egg, cheese, etc.)" class="search-bar" id="search" type="text" name="meal" value=""><button id="click-btn" class="search-btn" onclick="getMealName()" type="button" name="button"><i class=" fa-solid fa-magnifying-glass search"></i></button>
+    </form>
+
+    <div class="search-result-text">
+      <h2>Your Search Results:</h2>
+    </div>
+
+    <div class="container search-result">
+      <div class="row" id="meal-card">
+
+
+
+      </div>
+    </div>
+
+
+
+
+<div class="meal-content-box">
+  <button class="close-btn" id="closeBox" type="button" name="button"><i class="fa-solid fa-xmark"></i></button>
+    <div id="meal-description">
+
+    </div>
+</div>
+
+  </div>
+
+
+
+  <script src="https://kit.fontawesome.com/7911e70227.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>

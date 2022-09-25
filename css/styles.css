@@ -1,0 +1,186 @@
+body{
+  text-align: center;
+}
+
+h1,h2{
+  font-weight: 700;
+}
+
+.author{
+  margin-bottom: 20px;
+  display: block;
+}
+
+.main{
+  margin: 0 100px;
+}
+
+.close-btn{
+  border: none;
+  border-radius: 8px;
+  position: absolute;
+  right: 30px;
+  top: 15px;
+}
+
+.card-single{
+  margin-bottom: 50px;
+  border: none;
+  box-shadow: 1px 1px 5px #7F8487;
+  margin-left: 0;
+}
+.card2{
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.heading{
+  margin-top: 70px;
+}
+
+.meal-name{
+  margin: 10px;
+}
+
+.meal-category h3{
+  background-color: white;
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 7px;
+  color: orange;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.meal-name h3{
+  color: #FDEFF4;
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+.meal-instructions{
+  color: white;
+  padding: 0 60px;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.meal-image img{
+  width: 220px;
+  margin-top: 20px;
+  border-radius: 50px;
+}
+
+.meal-content-box{
+  margin: 0 200px;
+  overflow: auto;
+  background-color: orange;
+  border-radius: 15px;
+  padding: 50px 20px 200px 20px;
+  position: fixed;
+  top: 50px;
+  bottom: 20px;
+  display: none;
+}
+
+.meal-content-box::-webkit-scrollbar{
+  width: 10px;
+}
+
+.meal-content-box::-webkit-scrollbar-thumb{
+  background: white;
+  border-radius: 30px;
+}
+
+.search-btn{
+  background-color: orange;
+  color: white;
+  font-size: 27px;
+  padding: 0px 10px 5px 5px;
+  position: relative;
+  top: 2px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border: none;
+}
+
+.search-bar{
+  width: 400px;
+  height: 45px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding-left: 15px;
+  border: 2px solid orange;
+}
+
+.search-bar:focus{
+  outline: none;
+  border: 2px solid orange;
+}
+
+.search-result-text{
+  margin-top: 60px;
+}
+
+.search-result-text{
+  margin-bottom: 30px;
+}
+
+.recepie-video{
+  margin-top: 20px;
+}
+
+.recepie-video a{
+  font-weight: 800;
+  color: white;
+  font-size: 30px;
+}
+
+.recepie-video{
+  margin-top: 30px;
+}
+
+.title1{
+  margin-bottom: 30px;
+}
+
+.no-meals{
+  font-weight: bold;
+  font-size: 30px;
+  color: orange;
+}
+
+
+#recepie-link{
+  background-color: orange;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 40px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+.showThis{
+  display: block;
+}
+
+@media screen and (max-width: 500px){
+  .search-result{
+    text-align: center;
+    padding-left: 70px;
+  }
+  .meal-content-box{
+    position: fixed;
+    left: -100px;
+    top: 200px;
+    width: 400px;
+    padding: 0;
+    padding-bottom: 30px;
+  }
+
+  .meal-content-box .h3{
+   text-align: justify;
+
+}
